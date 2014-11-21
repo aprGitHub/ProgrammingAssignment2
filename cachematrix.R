@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
     m <<- NULL
   }
   get <- function() x
-  setTheInverse <- function(argInv) m <<- argInv # What a silly method is this?
+  setTheInverse <- function(argInv) m <<- argInv # Metodo honen helburua eztutpanikargi:-!
   getTheInverse <- function() m
   
   list(set = set, get = get,
